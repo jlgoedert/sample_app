@@ -100,7 +100,7 @@ Rails.application.configure do
   end
 
   # Store uploaded files on Amazon AWS.
-  config.active_storage.service = :amazon
+  #config.active_storage.service = :amazon
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
